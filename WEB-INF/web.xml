@@ -1,0 +1,78 @@
+<web-app>
+<!-- Program 1 -->
+<servlet>
+    <servlet-name>Prog1</servlet-name>
+    <servlet-class>Prog1</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Prog1</servlet-name>
+    <url-pattern>/Prog1</url-pattern>
+</servlet-mapping>
+<!-- Program 2 -->
+<servlet>
+    <servlet-name>Prog2x</servlet-name>
+    <servlet-class>Prog2x</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Prog2x</servlet-name>
+    <url-pattern>/Prog2x</url-pattern>
+</servlet-mapping>
+<!-- Program 3 -->
+<servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>Prog3</servlet-name>
+    <servlet-class>Prog3</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Prog3</servlet-name>
+    <url-pattern>/Prog3</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>welcome</servlet-name>
+    <servlet-class>welcome</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>welcome</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+<!-- Program 4 -->
+<servlet>
+    <servlet-name>Prog4</servlet-name>
+    <servlet-class>Prog4</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Prog4</servlet-name>
+    <url-pattern>/Prog4</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>Update</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/Update</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Delete</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+</servlet-mapping>
+</web-app>
