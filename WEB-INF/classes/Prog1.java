@@ -8,6 +8,6 @@ public class Prog1 extends HttpServlet {
     {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<html><head><head><title>Hello World!</title></head><body><h1 >Hello World! AVPTI hello</h1></body></html>");
+        out.println("<html><head><head><title>Hello World!</title></head><body><h1 >Hello World!</h1></body></html>");
     }
 }

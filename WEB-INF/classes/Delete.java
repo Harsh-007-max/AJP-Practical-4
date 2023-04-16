@@ -2,15 +2,12 @@ import java.io.*;
 import java.sql.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-
 public class Delete extends HttpServlet{
     public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException{
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.print("<form action=\"Delete\" method=\"post\">"+
         "ID:<input type=\"text\" name=\"pid\"/><br/>"+
-        // "Name:<input type=\"text\" name=\"pname\"/><br/>"+
-        // "Price:<input type=\"text\" name=\"pprice\"/><br/>"+
         "<input type=\"submit\"/>"+
         "</form>");
     }

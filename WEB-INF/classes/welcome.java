@@ -21,5 +21,4 @@ public class welcome extends HttpServlet {
             out.close();
         }
     }
-    
 }

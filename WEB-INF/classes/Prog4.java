@@ -1,11 +1,7 @@
-/*Write an application using servlet to perform CRUD operations 
-on MySQL database connected to the servlet with type-4 driver. 
-Also apply a basic formatting in the page */
 import java.io.*;
 import java.sql.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-
 public class Prog4 extends HttpServlet {
     public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException{
         response.setContentType("text/html");
